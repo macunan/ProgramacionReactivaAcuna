@@ -6,19 +6,19 @@ import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { AnimeItemComponent } from './components/anime-item/anime-item.component';
+import { StudentItemComponent } from './components/student-item/student-item.component';
 
 
 @NgModule({
   declarations: [
-    AnimeItemComponent,
+    StudentItemComponent,
   ],
   imports: [
     CommonModule
   ],
   exports: [
     MatCardModule,
-    AnimeItemComponent,
+    StudentItemComponent,
     MatFormFieldModule,
     MatInputModule,
     MatIconModule,

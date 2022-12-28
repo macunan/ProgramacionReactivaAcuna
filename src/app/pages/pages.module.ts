@@ -2,14 +2,14 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
 import { SharedModule } from '../shared/shared.module';
-import { AnimesPageComponent } from './animes-page/animes-page.component';
+import { StudentsPageComponent } from './student-page/student-page.component';
 import { HttpClientModule } from '@angular/common/http';
 
 
 
 @NgModule({
   declarations: [
-    AnimesPageComponent
+    StudentsPageComponent
   ],
   imports: [ // IMPORTANDO
     CommonModule,
@@ -18,7 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
     ReactiveFormsModule,
   ],
   exports: [
-    AnimesPageComponent,
+    StudentsPageComponent,
   ]
 })
 export class PagesModule { }
